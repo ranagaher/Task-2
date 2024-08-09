@@ -1,0 +1,67 @@
+body {
+margin: 0;
+padding: 0;
+background-color: rgb(81, 110, 136);
+background-image: url(images/R.jpg);
+background-repeat:no-repeat ;
+background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    direction: rtl; /* لتغيير اتجاه النص إلى اليمين */
+    text-align: right; /* لتغيير محاذاة النص إلى اليمين */
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    text-align: right;
+}
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+h6{
+
+    color: black;
+    padding: 5px 
+    
+}
